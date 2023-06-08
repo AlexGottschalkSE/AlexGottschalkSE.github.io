@@ -1,1 +1,0 @@
-# AlexGottschalkSE.github.io
