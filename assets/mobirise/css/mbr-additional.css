@@ -1064,7 +1064,7 @@ a {
 .cid-tIXAj5yUgC .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #ffffff;
+  background: #39393a;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -1094,18 +1094,95 @@ a {
 .cid-tIXAj5yUgC .mbr-text,
 .cid-tIXAj5yUgC .mbr-section-btn {
   text-align: left;
+  color: #ffffff;
 }
 .cid-tIXAj5yUgC .item-title {
   text-align: left;
+  color: #ffffff;
 }
 .cid-tIXAj5yUgC .item-subtitle {
   text-align: left;
   color: #bbbbbb;
 }
+.cid-tJ7HkAXCO9 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #4f4f4f;
+}
+.cid-tJ7HkAXCO9 .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tJ7HkAXCO9 .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-tJ7HkAXCO9 .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-tJ7HkAXCO9 img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-tJ7HkAXCO9 .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-tJ7HkAXCO9 .mbr-section-title {
+  color: #ffffff;
+}
+.cid-tJ7HkAXCO9 .mbr-text {
+  color: #ffffff;
+}
+.cid-tJ7HkUZTnS {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  background-color: #353535;
+}
+.cid-tJ7HkUZTnS .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tJ7HkUZTnS .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+@media (max-width: 991px) {
+  .cid-tJ7HkUZTnS .image-wrapper {
+    margin-bottom: 1rem;
+  }
+}
+.cid-tJ7HkUZTnS .row {
+  flex-direction: row-reverse;
+}
+.cid-tJ7HkUZTnS img {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .cid-tJ7HkUZTnS .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-tJ7HkUZTnS .mbr-section-title {
+  color: #ffffff;
+}
+.cid-tJ7HkUZTnS .mbr-text {
+  color: #ffffff;
+}
 .cid-tJ7DJXxhqD {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-color: #7d7d7d;
+  background-color: #4f4f4f;
 }
 .cid-tJ7DJXxhqD .mbr-overlay {
   background-color: #ffffff;
@@ -1122,6 +1199,9 @@ a {
   .cid-tJ7DJXxhqD form .mbr-section-btn .btn {
     width: 100%;
   }
+}
+.cid-tJ7DJXxhqD .mbr-section-title {
+  color: #ffffff;
 }
 .cid-sFAOjz8nX7 {
   padding-top: 2rem;
