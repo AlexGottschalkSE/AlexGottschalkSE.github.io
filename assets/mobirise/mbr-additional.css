@@ -957,7 +957,7 @@ a {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #05386b;
+  background-color: #000000;
 }
 .cid-sFAA5oUu2Y button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1030,7 +1030,16 @@ a {
 .cid-sFCAOqBTxa {
   padding-top: 20rem;
   padding-bottom: 20rem;
+  /* Image for large screens */
   background-image: url("../../../assets/images/mbr-1.jpg");
+}
+
+/* Media query for screens smaller than 768 pixels */
+@media (max-width: 767px) {
+  .cid-sFCAOqBTxa {
+    /* Image for small screens */
+    background-image: url("../../../assets/images/smalltop.jpg");
+  }
 }
 .cid-sFCAOqBTxa .mbr-section-title {
   color: #fafafa;
@@ -1101,27 +1110,6 @@ a {
 .cid-tIXAj5yUgC .item-subtitle {
   text-align: left;
   color: #bbbbbb;
-}
-.cid-tJ7DJXxhqD {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-  background-color: #7d7d7d;
-}
-.cid-tJ7DJXxhqD .mbr-overlay {
-  background-color: #ffffff;
-  opacity: 0.4;
-}
-.cid-tJ7DJXxhqD form .mbr-section-btn {
-  text-align: center;
-  width: 100%;
-}
-.cid-tJ7DJXxhqD form .mbr-section-btn .btn {
-  display: inline-flex;
-}
-@media (max-width: 991px) {
-  .cid-tJ7DJXxhqD form .mbr-section-btn .btn {
-    width: 100%;
-  }
 }
 .cid-sFAOjz8nX7 {
   padding-top: 2rem;
