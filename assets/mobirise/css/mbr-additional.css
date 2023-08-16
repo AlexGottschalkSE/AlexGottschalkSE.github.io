@@ -534,6 +534,11 @@ a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-cap
   background-image: linear-gradient(currentColor 50%, currentColor 50%);
   background-position: 0px 1.2em;
 }
+
+.navbar-caption {
+	font-size: 17px;
+}
+
 .nav-tabs .nav-link.active {
   color: #ffffff;
 }
