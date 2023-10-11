@@ -633,6 +633,7 @@ blockquote {
   border-top-color: #353535;
   border-bottom-color: #353535;
 }
+
 .jq-selectbox:hover .jq-selectbox__trigger-arrow,
 .jq-number__spin.minus:hover:after,
 .jq-number__spin.plus:hover:after {
